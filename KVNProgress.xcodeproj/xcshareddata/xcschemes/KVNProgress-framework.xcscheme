@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF32AA7E1DED3B780032DB2E"
-               BuildableName = "KVNProgressFramework.framework"
+               BuildableName = "KVNProgress.framework"
                BlueprintName = "KVNProgressFramework"
                ReferencedContainer = "container:KVNProgress.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF32AA7E1DED3B780032DB2E"
-            BuildableName = "KVNProgressFramework.framework"
+            BuildableName = "KVNProgress.framework"
             BlueprintName = "KVNProgressFramework"
             ReferencedContainer = "container:KVNProgress.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF32AA7E1DED3B780032DB2E"
-            BuildableName = "KVNProgressFramework.framework"
+            BuildableName = "KVNProgress.framework"
             BlueprintName = "KVNProgressFramework"
             ReferencedContainer = "container:KVNProgress.xcodeproj">
          </BuildableReference>

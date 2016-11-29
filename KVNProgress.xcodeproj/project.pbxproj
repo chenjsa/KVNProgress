@@ -39,6 +39,11 @@
 		AF32AA911DED3BA00032DB2E /* KVNProgressConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A53757A1A45784200A7743C /* KVNProgressConfiguration.m */; };
 		AF32AA931DED3BA00032DB2E /* KVNRotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABBF99A1D65E560004FED77 /* KVNRotationViewController.m */; };
 		AF32AA941DED3CB30032DB2E /* KVNProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA0DD2C1930F76A00FDD29F /* KVNProgressView.xib */; };
+		AF32AA9A1DED4BE30032DB2E /* KVNProgressConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5375791A45784200A7743C /* KVNProgressConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF32AA9B1DED4BE60032DB2E /* KVNRotationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABBF9991D65E560004FED77 /* KVNRotationViewController.h */; };
+		AF32AA9C1DED4BE90032DB2E /* UIImage+KVNImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA0DD261930E62A00FDD29F /* UIImage+KVNImageEffects.h */; };
+		AF32AA9D1DED4BEC0032DB2E /* UIImage+KVNEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA0DD2E1931EB3D00FDD29F /* UIImage+KVNEmpty.h */; };
+		AF32AA9E1DED4BEF0032DB2E /* UIColor+KVNContrast.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A835D671AB339E900CB321A /* UIColor+KVNContrast.h */; };
 		B7AEA695F14877870205F81C /* libPods-KVNProgressTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B43D6870AC5276C24F2B9384 /* libPods-KVNProgressTests.a */; };
 /* End PBXBuildFile section */
 
@@ -290,6 +295,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF32AA871DED3B930032DB2E /* KVNProgress.h in Headers */,
+				AF32AA9A1DED4BE30032DB2E /* KVNProgressConfiguration.h in Headers */,
+				AF32AA9B1DED4BE60032DB2E /* KVNRotationViewController.h in Headers */,
+				AF32AA9C1DED4BE90032DB2E /* UIImage+KVNImageEffects.h in Headers */,
+				AF32AA9D1DED4BEC0032DB2E /* UIImage+KVNEmpty.h in Headers */,
+				AF32AA9E1DED4BEF0032DB2E /* UIColor+KVNContrast.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -829,6 +839,7 @@
 				AF32AA861DED3B780032DB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
