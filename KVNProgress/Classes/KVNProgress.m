@@ -1028,7 +1028,7 @@ static KVNProgressConfiguration *configuration;
 {
 	BOOL showStatus = (self.status.length > 0);
 	
-	self.circleProgressViewToStatusLabelVerticalSpaceConstraint.constant = (showStatus) ? KVNCircleProgressViewToStatusLabelVerticalSpaceConstraintConstant : 0.0f;
+	self.circleProgressViewToStatusLabelVerticalSpaceConstraint.constant = (showStatus && self.configuration.circleSize > 0) ? KVNCircleProgressViewToStatusLabelVerticalSpaceConstraintConstant : 0.0f; //ggcar modified
 	
 	CGSize maximumLabelSize = CGSizeMake(CGRectGetWidth(self.statusLabel.bounds), CGFLOAT_MAX);
 	CGSize statusLabelSize = [self.statusLabel sizeThatFits:maximumLabelSize];
